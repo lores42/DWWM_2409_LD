@@ -59,6 +59,7 @@
                     Console.WriteLine("J'irai à la bibliothèque municipale!");
                     Console.WriteLine("Es ce qu'ils ont le tome 1 de Game oh Throne?");
                     GOTbibliothequeMunicipal = bool.Parse(Console.ReadLine());
+
                     if (GOTbibliothequeMunicipal)
                     {
                         Console.WriteLine("Je rentre direct et je m'instale confortablement dans un fauteuil et je me plongerais dans la lecture!");
