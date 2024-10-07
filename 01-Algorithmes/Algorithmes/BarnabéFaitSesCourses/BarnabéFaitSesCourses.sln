@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnabéFaitSesCourses", "BarnabéFaitSesCourses\BarnabéFaitSesCourses.csproj", "{1D056F76-D3F3-48E9-A08E-88326BAD2189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarnabéFaitSesCourses", "BarnabéFaitSesCourses\BarnabéFaitSesCourses.csproj", "{1D056F76-D3F3-48E9-A08E-88326BAD2189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nombrePremier", "..\nombrePremier\nombrePremier\nombrePremier.csproj", "{83D8CE0F-1689-41ED-8260-CE17DE65FF33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlerLaSaisie", "..\ControlerLaSaisie\ControlerLaSaisie\ControlerLaSaisie.csproj", "{05613014-2613-4FD8-949E-9EE490EC42CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1D056F76-D3F3-48E9-A08E-88326BAD2189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D056F76-D3F3-48E9-A08E-88326BAD2189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D056F76-D3F3-48E9-A08E-88326BAD2189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D8CE0F-1689-41ED-8260-CE17DE65FF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D8CE0F-1689-41ED-8260-CE17DE65FF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D8CE0F-1689-41ED-8260-CE17DE65FF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D8CE0F-1689-41ED-8260-CE17DE65FF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05613014-2613-4FD8-949E-9EE490EC42CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05613014-2613-4FD8-949E-9EE490EC42CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05613014-2613-4FD8-949E-9EE490EC42CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05613014-2613-4FD8-949E-9EE490EC42CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

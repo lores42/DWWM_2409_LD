@@ -7,31 +7,35 @@
             Console.WriteLine("Barnabé fais ses courses !");
 
             //Variable
-            int arg;
-            int dép=0;
-            int S=0;
+            double arg = 0;
+            double dép = 0;
+            int M=1;
             string saisieUtilisateur;
 
 
             //Traitement 
-            Console.WriteLine("Saissez la somme dont dispose pose Barnabé pour faire ses coursses !");
+            Console.WriteLine("Saissez la somme dont dispose Barnabé pour faire ses coursses !");
             saisieUtilisateur = Console.ReadLine();
-            arg = int.Parse(Console.ReadLine());
+            arg = double.Parse(saisieUtilisateur);
 
             //Affichage
 
-            while (arg != 2)
+            while (arg > 2)
             {
-                if (arg / 2 == dép)
-                {
-                    Console.WriteLine("Barnabé à dépensé " + dép + "€ ");
-                }
 
-                else if (dép / 2 + 1 == S)
+                dép = (arg / 2.0 + 1.0);
+                arg = arg - dép;
+                Console.WriteLine("Barnabé à dépensé " + dép + " Euros et il lui reste " + arg+"E");
+
+                M++;
                 {
-                    Console.WriteLine("Barnabé à dépensé "+S+"€ dans le magasin suivant.");
+                    Console.WriteLine("Barnabé a fais " + M + " de magasin.");                
                 }
             }
+
+            Console.WriteLine("Barnabé à dépensé " + arg + " Euros dans le dernier magasin");
+            Console.WriteLine(" ");
+            Console.WriteLine("COMME DIRAIT CINDY IL AURAIT PU FAIRE UN DRIVE CE ... DE BARNABÉ !!! ");
         }
     }
 }
