@@ -54,7 +54,7 @@
             Console.WriteLine("Self du CRM !");
 
             //Variable
-            string Nom = "Dasylva";
+            string Nom ;
             int solde = 3;
             int debit = 4;
             int achat;
@@ -66,6 +66,13 @@
             bool recharge = true;
 
             // Traitement 
+            string[] Non = new string[5];
+            Nom[0] = "Dasylva";
+            Nom[1] = "Dupond";
+            Nom[2] = "Mendy";
+            Nom[3] = "Gomis";
+            Nom[4] = "Flin";
+                
             Console.WriteLine("Veuillez insérez votre carte !");
             Console.WriteLine(" Entrez votre nom");
             saisieUtilisateurN = Console.ReadLine();

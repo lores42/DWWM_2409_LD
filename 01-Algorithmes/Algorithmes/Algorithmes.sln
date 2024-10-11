@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rechercher_le_nombre_d_occu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denombrer_les_lettres_de_l_alphabet", "Denombrer_les_lettres_de_l_alphabet\Denombrer_les_lettres_de_l_alphabet.csproj", "{2F381642-7D9A-41C9-B090-002BCBF0861A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "carte_de_restauration", "carte_de_restauration\carte_de_restauration.csproj", "{4A3D43FE-4384-434F-954D-00866ACB6433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carte_de_restauration", "carte_de_restauration\carte_de_restauration.csproj", "{4A3D43FE-4384-434F-954D-00866ACB6433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "correction_premier_jalon", "correction_premier_jalon\correction_premier_jalon.csproj", "{A96C0DDD-7E89-43EF-A36E-AA90E5326012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tableau_dynamique", "tableau_dynamique\tableau_dynamique.csproj", "{5BC4CD4E-EA5B-4C12-92D9-C320F6A0E3B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exrcisse_tableau_dynamique", "exrcisse_tableau_dynamique\exrcisse_tableau_dynamique.csproj", "{80FD7587-1395-45EC-96DF-BDFD3744CAD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{4A3D43FE-4384-434F-954D-00866ACB6433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A3D43FE-4384-434F-954D-00866ACB6433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A3D43FE-4384-434F-954D-00866ACB6433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96C0DDD-7E89-43EF-A36E-AA90E5326012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96C0DDD-7E89-43EF-A36E-AA90E5326012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96C0DDD-7E89-43EF-A36E-AA90E5326012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96C0DDD-7E89-43EF-A36E-AA90E5326012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC4CD4E-EA5B-4C12-92D9-C320F6A0E3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC4CD4E-EA5B-4C12-92D9-C320F6A0E3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC4CD4E-EA5B-4C12-92D9-C320F6A0E3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC4CD4E-EA5B-4C12-92D9-C320F6A0E3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FD7587-1395-45EC-96DF-BDFD3744CAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FD7587-1395-45EC-96DF-BDFD3744CAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FD7587-1395-45EC-96DF-BDFD3744CAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FD7587-1395-45EC-96DF-BDFD3744CAD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
