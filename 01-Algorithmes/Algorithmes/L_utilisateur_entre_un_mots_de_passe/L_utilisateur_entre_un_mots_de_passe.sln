@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_utilisateur_entre_un_mots_de_passe", "L_utilisateur_entre_un_mots_de_passe\L_utilisateur_entre_un_mots_de_passe.csproj", "{D788BA44-2864-4B0D-A022-3F9ACDE63FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L_utilisateur_entre_un_mots_de_passe", "L_utilisateur_entre_un_mots_de_passe\L_utilisateur_entre_un_mots_de_passe.csproj", "{D788BA44-2864-4B0D-A022-3F9ACDE63FDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rechercher_le_nombre_d_occurence_d_d_une_lettre_dans_une_phrase", "..\ControlerLaSaisie\rechercher_le_nombre_d_occurence_d_d_une_lettre_dans_une_phrase\rechercher_le_nombre_d_occurence_d_d_une_lettre_dans_une_phrase.csproj", "{62575E42-E41C-4D5A-B53F-0BB3644998BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D788BA44-2864-4B0D-A022-3F9ACDE63FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D788BA44-2864-4B0D-A022-3F9ACDE63FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D788BA44-2864-4B0D-A022-3F9ACDE63FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62575E42-E41C-4D5A-B53F-0BB3644998BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62575E42-E41C-4D5A-B53F-0BB3644998BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62575E42-E41C-4D5A-B53F-0BB3644998BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62575E42-E41C-4D5A-B53F-0BB3644998BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
