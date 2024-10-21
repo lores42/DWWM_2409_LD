@@ -10,26 +10,35 @@
      <h2>Votre compte configuré en 2 minutes !</h2>
 
        <form action="" method="get" onsubmit="alert('Success!')">
+
             <fieldset>
+
                 <legend>&Eacute;tat civil</legend>
+
                 <div>
                      <label for="nom">Nom&nbsp;:</label>
                      <input type="text" id="nom" name="user_name" required/>
                  </div>
+
                  <div>
                      <label for ="prenom">Prénom&nbsp;:</label>
                      <input type="text" id="prenom" name="user_prenom" required/>
                  </div>
+
                  <div>
                      <label for="dateDeNaissance">Date de Naissance&nbsp;:</label>
                      <input type="date" id="dateDeNaissance" name="user_dateDeNaissance" required/>
                  </div>
+
             </fieldset>
+
             <fieldset>
+
                 <div>
                      <label for="adresseEmail">Adresse Email&nbsp;:</label>
                      <input type="text" id="adresseEmail" name="user_adresseEmail" required/>
                  </div>
+
                  <div>
                      <label for="telephone">Téléphone&nbsp;:</label>
                      <input type="tel" id="telephone" name="user_telephone"  required>
@@ -43,10 +52,21 @@
                      <input class = "styled" type= "submit" value="S'inscrire" />                     
                  </div>   
             </fieldset>
-            
-        
-            
-           
+
+            <fieldset>
+
+                 <div>
+                     <input type="checkbox" id="j_accept" name="user_j_accept" />
+                     <label for="j_accept">J'accepet les </label> <a herf="https://github.com/lores42/DWWM_2409_LD/tree/develop">condition d'utilisation</a>
+                 </div>
+
+                  <div>
+                     <imput type = "buton" name = "s_inscrire" value = "user_s_inscrire"/>
+                     <label for ="s_inscrire">S'inscrire</label>
+                 </div>  
+
+            </fieldset>
+
        </form>
     
 </body>
