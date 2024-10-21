@@ -66,7 +66,7 @@
             bool recharge = true;
 
             // Traitement 
-            string[] Non = new string[5];
+            string[] NomUtlisateur = new string[5];
             Nom[0] = "Dasylva";
             Nom[1] = "Dupond";
             Nom[2] = "Mendy";
@@ -121,8 +121,8 @@
 
 
 
-                else
-                    {
+                 if (!saisieUtilisateurN == Nom)
+            {
                         Console.WriteLine("identité nom valide");
                     }
 

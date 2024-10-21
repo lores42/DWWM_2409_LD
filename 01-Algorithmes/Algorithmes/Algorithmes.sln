@@ -17,11 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denombrer_les_lettres_de_l_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carte_de_restauration", "carte_de_restauration\carte_de_restauration.csproj", "{4A3D43FE-4384-434F-954D-00866ACB6433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "correction_premier_jalon", "correction_premier_jalon\correction_premier_jalon.csproj", "{A96C0DDD-7E89-43EF-A36E-AA90E5326012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "correction_premier_jalon", "correction_premier_jalon\correction_premier_jalon.csproj", "{A96C0DDD-7E89-43EF-A36E-AA90E5326012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tableau_dynamique", "tableau_dynamique\tableau_dynamique.csproj", "{5BC4CD4E-EA5B-4C12-92D9-C320F6A0E3B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tableau_dynamique", "tableau_dynamique\tableau_dynamique.csproj", "{5BC4CD4E-EA5B-4C12-92D9-C320F6A0E3B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exrcisse_tableau_dynamique", "exrcisse_tableau_dynamique\exrcisse_tableau_dynamique.csproj", "{80FD7587-1395-45EC-96DF-BDFD3744CAD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exrcisse_tableau_dynamique", "exrcisse_tableau_dynamique\exrcisse_tableau_dynamique.csproj", "{80FD7587-1395-45EC-96DF-BDFD3744CAD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "recherhce_un_nombre_dans_un_tableau", "recherhce_un_nombre_dans_un_tableau\recherhce_un_nombre_dans_un_tableau.csproj", "{EA14CD9D-7F68-44F5-A4C3-9EC8EECAD766}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "denombrerLesLettresDeLAlphabetDansUnTableau", "denombrerLesLettresDeLAlphabetDansUnTableau\denombrerLesLettresDeLAlphabetDansUnTableau.csproj", "{531BB726-24DA-443F-8BBA-61A8D8A1D3AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilisateurs", "Utilisateurs\Utilisateurs.csproj", "{A29D58B4-07AA-41B9-852C-4782ED545CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercice_collections", "exercice_collections\exercice_collections.csproj", "{B4044B9C-70CE-42CD-B41D-802D2F6B37A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilisateur", "Utilisateur\Utilisateur.csproj", "{3B9F7619-E633-4442-A481-EF8DD11BD166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +79,26 @@ Global
 		{80FD7587-1395-45EC-96DF-BDFD3744CAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80FD7587-1395-45EC-96DF-BDFD3744CAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80FD7587-1395-45EC-96DF-BDFD3744CAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA14CD9D-7F68-44F5-A4C3-9EC8EECAD766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA14CD9D-7F68-44F5-A4C3-9EC8EECAD766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA14CD9D-7F68-44F5-A4C3-9EC8EECAD766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA14CD9D-7F68-44F5-A4C3-9EC8EECAD766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531BB726-24DA-443F-8BBA-61A8D8A1D3AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531BB726-24DA-443F-8BBA-61A8D8A1D3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531BB726-24DA-443F-8BBA-61A8D8A1D3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531BB726-24DA-443F-8BBA-61A8D8A1D3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29D58B4-07AA-41B9-852C-4782ED545CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29D58B4-07AA-41B9-852C-4782ED545CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29D58B4-07AA-41B9-852C-4782ED545CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29D58B4-07AA-41B9-852C-4782ED545CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4044B9C-70CE-42CD-B41D-802D2F6B37A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4044B9C-70CE-42CD-B41D-802D2F6B37A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4044B9C-70CE-42CD-B41D-802D2F6B37A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4044B9C-70CE-42CD-B41D-802D2F6B37A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9F7619-E633-4442-A481-EF8DD11BD166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9F7619-E633-4442-A481-EF8DD11BD166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9F7619-E633-4442-A481-EF8DD11BD166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9F7619-E633-4442-A481-EF8DD11BD166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

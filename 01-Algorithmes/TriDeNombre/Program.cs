@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using LDasylvaTool;
+using System.ComponentModel.DataAnnotations;
 
 namespace TriDeNombre
 {
@@ -10,13 +11,15 @@ namespace TriDeNombre
 
             // Variable
 
-            int numA;
-            int numB;
-            int numC;
+            int numA = ConsoleTools.DemenderNombreEntier("Entrez votre premier nombre");
+            int numB = ConsoleTools.DemenderNombreEntier("Entrez votre deuxiéme nombre");
+            int numC = ConsoleTools.DemenderNombreEntier("Entrez votre troisiéme nombre");
             int[] nombres;
             string saisieUtilisateur;
 
             // Traitement 
+            /*
+            ConsoleTools
 
             Console.WriteLine("Entrez votre premier nombre");
             saisieUtilisateur = Console.ReadLine(); // Récupération d'une saisie utilisateur
@@ -29,6 +32,8 @@ namespace TriDeNombre
             Console.WriteLine("Entrez votre troisième nombre");
             saisieUtilisateur = Console.ReadLine();
             numC = int.Parse(saisieUtilisateur);
+
+            */
 
             nombres = [numA,numB,numC];
 
