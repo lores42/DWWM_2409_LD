@@ -1,0 +1,74 @@
+<?xm1 version="1.0" encoding="utf8"?>
+<Voitures>
+
+<objet>
+    <Car id = "1">
+       <carId>342</carId>
+       <carName>Mazda RX-7 GS</carName>
+       <carModel>1980</carModel>
+       <carCylindre>3</carCylindres>
+       <carHorspower>100</carHorspower>
+       <carWeight>2420</carWeight>
+       <carOrigin>JP</carOrigin>
+    </Car>
+
+    <Car id = "2">
+       <carId>251</carId>
+       <carName>Mazda RX-4</carName>
+       <carModel>1977</carModel>
+       <carCylindre>3</carCylindres>
+       <carHorspower>100</carHorspower>
+       <carWeight>2720</carWeight>
+       <carOrigin>JP</carOrigin>
+    </Car>
+
+    <Car id = "3">
+       <carId>119</carId>
+       <carName>Mazda RX-3</carName>
+       <carModel>1973</carModel>
+       <carCylindre>3</carCylindres>
+       <carHorspower>90</carHorspower>
+       <carWeight>2124</carWeight>
+       <carOrigin>JP</carOrigin>
+    </Car>
+
+    <Car id = "4">
+       <carId>79</carId>
+       <carName>Mazda RX-2 Coupe</carName>
+       <carModel>1972</carModel>
+       <carCylindre>3</carCylindres>
+       <carHorspower>97</carHorspower>
+       <carWeight>2330</carWeight>
+       <carOrigin>JP</carOrigin>
+    </Car>
+
+    <Car id = "5">
+       <carId>388</carId>
+       <carName>Mercury Lynx I</carName>
+       <carModel>1982</carModel>
+       <carCylindre>4</carCylindres>
+       <carHorspower>70</carHorspower>
+       <carWeight>2125</carWeight>
+       <carOrigin>US</carOrigin>
+    </Car>
+
+    <Car id = "6">
+       <carId>387</carId>
+       <carName>Plymouth Horizon Miser</carName>
+       <carModel>1982</carModel>
+       <carCylindre>4</carCylindres>
+       <carHorspower>63</carHorspower>
+       <carWeight>2125</carWeight>
+       <carOrigin>US</carOrigin>
+    </Car>
+
+    <Car id = "7">
+       <carId>404</carId>
+       <carName>Dodge Rampage</carName>
+       <carModel>1982</carModel>
+       <carCylindre>4</carCylindres>
+       <carHorspower>84</carHorspower>
+       <carWeight>2295</carWeight>
+       <carOrigin>US</carOrigin>
+    </Car>
+</objet>

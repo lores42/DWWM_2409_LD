@@ -1,0 +1,67 @@
+<?xm1 version="1.0" encoding="utf8"?>
+<serie>
+   <serie id = "1"> 
+       <title>THE WIRE</title>
+       <genre>Drame, Policier</genre>
+       <annee>2002</annee>
+       <pays>US</pays>
+       <realisateur>David Smon, Ed Burns</realisateur>
+    </serie>
+
+    <serie id = "2"> 
+       <title>FOUNDATION</title>
+       <genre>Science-Fiction &amps Fantastique, Drame</genre>
+       <annee>2021</annee>
+       <pays>US</pays>
+       <realisateur>David S.Goyer</realisateur>
+    </serie>
+
+    <serie id = "3"> 
+       <title>CARNIVAL ROW</title>
+       <genre>Science-Fiction &amps Fantastique</genre>
+       <annee>2019</annee>
+       <pays>US</pays>
+       <realisateur>Travis Beacham, René Echevarria</realisateur>
+    </serie>
+  
+    <serie id = "4"> 
+       <title>SHAMLESS US</title>
+       <genre>Drame, Comedie</genre>
+       <annee>2011</annee>
+       <pays>US</pays>
+       <realisateur>John Wells, Paul Abbott</realisateur>
+    </serie>
+
+    <serie id = "5"> 
+       <title>BLACK SAILL</title>
+       <genre>Drame, Action, &amps Aventure</genre>
+       <annee>2014</annee>
+       <pays>US</pays>
+       <realisateur>Jonathan E.Steinberg</realisateur>
+    </serie>
+
+</serie>
+
+<passager>
+    <passager id = "1">
+       <userNamePassager>Lolita</userNamePassager>
+       <agePassager>24</agePassager>
+       <startPassager>paris</startPassager>
+       <arrivedPassager>Dijon</arrivedPassager>
+    </passager>
+
+    <passager id = "2">
+       <userNamePassager>Maurice</userNamePassager>
+       <agePassager>54</agePassager>
+       <startPassager>Vernon</startPassager>
+       <arrivedPassager>Thann</arrivedPassager>
+    </passager>
+
+    <passager id = "3">
+       <userNamePassager>Julie</userNamePassager>
+       <agePassager>37</agePassager>
+       <startPassager>Rouen</startPassager>
+       <arrivedPassager>Mulhouse</arrivedPassager>
+    </passager>
+
+</passager>
