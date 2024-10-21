@@ -1,0 +1,245 @@
+<?xm1 version="1.0" encoding="utf8"?>
+<Pays Européens>
+
+   <Pays>
+       <pays id = "1">
+       <nomPays>Allemagne</nomPays>
+       <capitalPays>Berlin</capitalPays>
+       <superficiePays unite="km²">357 592</superficiePays>
+       <poulationPays>83 360 000</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "2">
+       <nomPays>Autriche</nomPays>
+       <capitalPays>Vienne</capitalPays>
+       <superficiePays unite="km²">83 871</superficiePays>
+       <poulationPays>9 158 750</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "3">
+       <nomPays>Belgique</nomPays>
+       <capitalPays>Bruxelles</capitalPays>
+       <superficiePays unite="km²">30 688</superficiePays>
+       <poulationPays>11 492 641</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "4">
+       <nomPays>Bulgarie</nomPays>
+       <capitalPays>Sofia</capitalPays>
+       <superficiePays unite="km²">30 688</superficiePays>
+       <poulationPays>6 445 481</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "5">
+       <nomPays>Chypre</nomPays>
+       <capitalPays>Nicosie</capitalPays>
+       <superficiePays unite="km²">9 250</superficiePays>
+       <poulationPays>933 505</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "6">
+       <nomPays>Croatie</nomPays>
+       <capitalPays>Zagreb</capitalPays>
+       <superficiePays>56 594</superficiePays>
+       <poulationPays>3 861 967</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "7">
+       <nomPays>Danemark</nomPays>
+       <capitalPays>Copenhague</capitalPays>
+       <superficiePays unite="km²">42 952</superficiePays>
+       <poulationPays>5 961 249</poulationPays>
+   </pays>
+
+   <Pays>
+       <pays id = "8">
+       <nomPays>Espagne</nomPays>
+       <capitalPays></capitalPays>
+       <superficiePays unite="km²">506 030</superficiePays>
+       <poulationPays>48 592 909</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "9">
+       <nomPays>Estonie</nomPays>
+       <capitalPays>Tallinn</capitalPays>
+       <superficiePays unite="km²">45 339</superficiePays>
+       <poulationPays>1 374 687</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "10">
+       <nomPays>Finlande</nomPays>
+       <capitalPays>Helsinki</capitalPays>
+       <superficiePays unite="km²">338 462</superficiePays>
+       <poulationPays>5 603 851</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "11">
+       <nomPays>France</nomPays>
+       <capitalPays>Paris</capitalPays>
+       <superficiePays unite="km²">551 695</superficiePays>
+       <poulationPays>68 373 433</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "12">
+       <nomPays>Grèce</nomPays>
+       <capitalPays>Athènes</capitalPays>
+       <superficiePays unite="km²">131 957</superficiePays>
+       <poulationPays>10 482 487</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "13">
+       <nomPays>Hongrie</nomPays>
+       <capitalPays>Budapest</capitalPays>
+       <superficiePays unite="km²">93 026</superficiePays>
+       <poulationPays>9 584 627</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "14">
+       <nomPays>Irlande</nomPays>
+       <capitalPays>Dublin</capitalPays>
+       <superficiePays unite="km²">70 273</superficiePays>
+       <poulationPays>5 343 805</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "15">
+       <nomPays>Italie</nomPays>
+       <capitalPays>Rome</capitalPays>
+       <superficiePays unite="km²">302 073</superficiePays>
+       <poulationPays>60 360 000</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "16">
+       <nomPays>Lettonie</nomPays>
+       <capitalPays>Riga</capitalPays>
+       <superficiePays unite="km²">64 589</superficiePays>
+       <poulationPays> 1 871 882</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "17">
+       <nomPays>Lituanie</nomPays>
+       <capitalPays>Vilnius</capitalPays>
+       <superficiePays unite="km²">65 200</superficiePays>
+       <poulationPays>2 885 891</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "18">
+       <nomPays>Luxembourg</nomPays>
+       <capitalPays>Luxembourg</capitalPays>
+       <superficiePays unite="km²">2 586</superficiePays>
+       <poulationPays>672 050</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "19">
+       <nomPays>Malte</nomPays>
+       <capitalPays>La Valette</capitalPays>
+       <superficiePays unite="km²">316</superficiePays>
+       <poulationPays>519 562</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "20">
+       <nomPays>Pays-Bas</nomPays>
+       <capitalPays>Amsterdam</capitalPays>
+       <superficiePays unite="km²">17 942 942</superficiePays>
+       <poulationPays>17 942 942</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "21">
+       <nomPays>Pologne</nomPays>
+       <capitalPays>Varsovie</capitalPays>
+       <superficiePay unite="km²"s>322 575</superficiePays>
+       <poulationPays>36 620 970</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "22">
+       <nomPays>Portugal</nomPays>
+       <capitalPays>Lisbonne</capitalPays>
+       <superficiePays unite="km²">92 152</superficiePays>
+       <poulationPays>10 639 726</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "23">
+       <nomPays>République tchèque</nomPays>
+       <capitalPays>Prague</capitalPays>
+       <superficiePays unite="km²">78 866</superficiePays>
+       <poulationPays>10 900 555 </poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "24">
+       <nomPays>Roumanie</nomPays>
+       <capitalPays>Prague</capitalPays>
+       <superficiePays unite="km²">78 866</superficiePays>
+       <poulationPays>19 064 409</poulationPays>
+   </pays>
+
+   
+   <Pays>
+       <pays id = "25">
+       <nomPays></nomPays>
+       <capitalPays>Bratislava</capitalPays>
+       <superficiePays unite="km²">49 035</superficiePays>
+       <poulationPays>5 424 687</poulationPays>
+   </pays>
+
+   
+   <Pays>
+       <pays id = "26">
+       <nomPays>Slovénie</nomPays>
+       <capitalPays>Ljubljana</capitalPays>
+       <superficiePays unite="km²">20 271</superficiePays>
+       <poulationPays>2 123 949</poulationPays>
+   </pays>
+
+
+   <Pays>
+       <pays id = "27">
+       <nomPays>Suède</nomPays>
+       <capitalPays>Stockholm</capitalPays>
+       <superficiePays unite="km²">450 295</superficiePays>
+       <poulationPays>10 551 707</poulationPays>
+   </pays>
+
+</Pays Européens>

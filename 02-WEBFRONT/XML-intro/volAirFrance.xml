@@ -1,0 +1,28 @@
+<?xm1 version="1.0" encoding="utf8"?>
+<Vol Air France>
+
+   <vol>
+      <destination>Toulouse</destination>
+      <heureDeEpart>10</heureDeEpart>
+      <heureDArrivee>11:15</heureDArrivee>
+   </vol>
+
+   <vol>
+      <destination>Madrid</destination>
+      <heureDeEpart>10:55</heureDeEpart>
+      <heureDArrivee>12:55</heureDArrivee>
+   </vol>
+
+   <vol>
+      <destination>Fort De France</destination>
+      <heureDeEpart>11:30</heureDeEpart>
+      <heureDArrivee>14:10</heureDArrivee>
+   </vol>
+
+   <vol>
+      <destination>Nice</destination>
+      <heureDeEpart>11:35</heureDeEpart>
+      <heureDArrivee>13</heureDArrivee>
+   </vol>
+
+</Vol Air France>

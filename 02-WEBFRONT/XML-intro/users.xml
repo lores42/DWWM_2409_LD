@@ -1,0 +1,35 @@
+<?xm1 version="1.0" encoding="utf8"?>
+<Users>
+
+<Users>
+    <User id="1">
+        <username>Los</username> <!-- surname -->
+        <lastname>Dasylva</lastname>
+        <firstname>Lorès</firstname>
+        <birthday format="yyyy-mm-dd">1982-04-02</birthday>
+    </User>
+    <User id="2">
+        <username>Laly</username>
+        <lastname>Bugler</lastname>
+        <firstname>Lara</firstname>
+        <birthday format="yyyy-mm-dd">1982-04-01</birthday>
+    </User>
+    <User id="3">
+        <username>Lechauve</username>
+        <lastname>Leroy</lastname>
+        <firstname>Grégorie</firstname>
+        <birthday format="yyyy-mm-dd">1982-10-07</birthday>
+    </User>
+    <User id="4">
+        <username>Taloula</username>
+        <lastname>Mendy</lastname>
+        <firstname>Tatiana</firstname>
+        <birthday format="yyyy-mm-dd">1986-08-09</birthday>
+    </User>
+    <User id="5">
+        <username>Vatos</username>
+        <lastname>Gonçalvez</lastname>
+        <firstname>Victor</firstname>
+        <birthday format="yyyy-mm-dd">1988-05-15</birthday>
+    </User>
+</Users>

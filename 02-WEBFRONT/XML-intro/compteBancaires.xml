@@ -1,0 +1,52 @@
+<?xm1 version="1.0" encoding="utf8"?>
+<Compte Bancaire>
+
+<Users>
+     <User id="1">
+        <Acount>FR76 10001 10001 10000000001 11</Acount>
+        <banquename>Banque Populaire</banquename>
+        <city>Paris</city>
+        <owner>Doe John</owner>
+        <balance>36813.47</balance>       
+    </User>
+
+     <User id="2">
+       <acount>FR76 30003 30001 30000000012 33</Acount>
+       <banquename>Credit Mutuel</banquename>
+       <city>Paris</city>
+       <owner>Zouk Mark</owner>
+       <balance>5295.59</balance>
+    </User> 
+
+     <User id="3">
+       <acount>FR76 30003 30005 30000000001 13</Acount>
+       <banquename>Credit Mutuel</banquename>        
+       <city>Mulhouse</city>
+       <owner>Picard Joseph</owner>
+       <balance>1663.14</balance>
+    </User>
+
+     <User id="4">
+       <acount>FR76 30003 30005 30000000002 23</Acount>
+       <banquename>Credit Mutuel</banquename>        
+       <city>Mulhouse</city>
+       <owner>Milice Bruce</owner>
+       <balance>1559.3</balance>
+    </User>
+
+     <User id="5">
+       <acount>FR76 30003 30005 30000000003 33</Acount>
+       <banquename>Credit Mutuel</banquename>        
+       <city>Mulhouse</city>
+       <owner>Bobs Steeve</owner>
+       <balance>0.66</balance>
+    </User>
+
+     <User id="6">
+       <acount>FR76 30003 30005 30000000004 43</Acount>
+       <banquename>Credit Mutuel</banquename>        
+       <city>Mulhouse</city>
+       <owner>Bête Bil</owner>
+       <balance>1500.44</balance>
+    </User>
+</Usuers>
