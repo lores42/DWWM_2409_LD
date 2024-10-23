@@ -1,0 +1,42 @@
+body 
+{
+    background-color: #7D8CC4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main 
+{
+    background-color: white;
+    width: 1000px;
+    justify-self: center;
+    padding : 10px 20px 10px 20px;
+
+} 
+h1 
+{
+    text-align: center;
+    color : #726da8;
+    
+   
+}
+
+p,ol
+{
+    color: #B8336A;
+    
+}
+
+h2
+{
+    color: #7D8CC4;
+   
+}
+footer
+{
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+
+    
+    color: #A0D2DB;
+    padding-top: 20px;
+}
