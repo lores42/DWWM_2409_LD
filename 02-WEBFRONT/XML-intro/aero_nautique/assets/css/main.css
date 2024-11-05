@@ -47,3 +47,12 @@ table{
   .grey{
     background-color: grey;
   }
+  img{
+    width: 250px;
+  }
+  .image{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 20px;
+  }
