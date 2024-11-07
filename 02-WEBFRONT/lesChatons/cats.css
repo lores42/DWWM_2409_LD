@@ -1,0 +1,18 @@
+header{
+    background-color: #e64b3c;
+    justify-self: center;    
+}
+.matou {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+
+h2{
+    color: #e64b3c;
+}  
+p{
+   font-style: Arial;
+}  
