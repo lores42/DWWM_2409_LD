@@ -38,12 +38,39 @@ th, td{
 table{
     width: 60%;
     justify-self: center;
-    
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
   tbody{
     border: solid;
     
   }
-  .grey{
-    background-color: grey;
+  .grey td, th {
+    background-color: lightgrey;
+  }
+
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-self: center;
+    width: 1000px;
+    gap: 20px;
+    background-color: #FFFFFF;
+    img {
+        width: 230px ;
+        height: 150px;   
+        border: 1px solid black;
+        padding: 5px;
+    }
+     figure{
+        
+        color: black;
+        
+    }
+    figcaption {
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: bold; 
+    }
   }
