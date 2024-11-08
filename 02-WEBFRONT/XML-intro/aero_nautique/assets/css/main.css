@@ -1,5 +1,6 @@
 body{
     background-color: #222222;
+    margin : 0;
 }
 header{
     display: flex;
@@ -17,8 +18,25 @@ h1,h2{
 p, footer{
     color: #FFFFFF;
 }
-li, a{
+ul{ 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    display : block ;
+
+   text-decoration: none;
     color: #CCCCFF;
+    background-color:  #2d552d;
+    width: 100%;
+    padding : 5px 10px;
+    margin-bottom: 1px;
+    
+}
+a:hover{
+    background-color:  #67a167;
+    
 }
 main{
     font-family: Verdana;
@@ -28,6 +46,9 @@ footer{
 }
 tbody{
     color: #222222;
+}
+td{
+    border: 0px;
 }
 th, td{
 
