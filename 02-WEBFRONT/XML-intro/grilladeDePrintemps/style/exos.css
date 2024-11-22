@@ -8,7 +8,7 @@ body{
 
 header{
     display: grid;
-
+    grid-template-rows: auto;
     grid-column: 1/-1;
     background-color: skyblue;
     
@@ -25,10 +25,18 @@ header{
         grid-column: 1/7;
     }
 }
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 nav{
     grid-row: 2/4;
     background-color: skyblue;
+}
+section{
+    background-color: aliceblue;
+    width: 40%;
 }
 
 main{

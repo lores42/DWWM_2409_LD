@@ -1,0 +1,16 @@
+img{
+    width: 100px;
+}
+menu{
+    display: flex;
+}
+button{
+    width: 390px;
+    background-color: black;
+    color: #ffff;
+}
+fieldset{
+    border-radius: 5px;
+    width: 390px;
+}
+.

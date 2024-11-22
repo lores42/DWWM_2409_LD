@@ -1,5 +1,19 @@
+
+*{
+
+    margin:0;
+    padding:0;
+}
+
+
+
 body{
     background-color: #222222;
+<<<<<<< HEAD
+    margin:0;
+    padding:0;
+=======
+>>>>>>> 924be1417dad66fff0967d53c8345aaae627f59a
 }
 header{
     display: flex;
