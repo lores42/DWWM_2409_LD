@@ -24,6 +24,28 @@ header{
         width: 30 px;
     }
 }
+.che{ display: flex;
+    
+    width: 30px;
+    
+}
+form{
+    width: 455px;
+    marging-bottom: 20px;
+}
+button{
+    width: 455px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+input{
+    border-radius: 5px;
+}
+.fieldset{
+    width: 25px;
+    display: flex;   
+}
 .hiver{
     display: flex;
     align-items: center;
