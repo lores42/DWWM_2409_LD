@@ -11,53 +11,69 @@
     <header>
         <h1>Trenders</h1>
         <nav>         
+            <label class="label-hamburger" for="hamburger">≡</label>
+            <input type="checkbox" name="hamburger" id="hamburger">
             <ul>
-                <label class="label" for="hamburger">≡</label>
-                <input type="checkbox" name="hamburger" id="hamburger">
                 <li><a href="">VÊTEMENT</a></li>
                 <li><a href="">CHAUSSURES</a></li>
                 <li><a href="">ACCESSOIRES</a></li>
                 <li>
-                    <img class="flo" src="image/flocon-de-neige 1.png" alt="flocon">
-                    <a href=""> 
-                    promo hiver
+                    <a href="" class="promo"> 
+                        <img class="flo" src="image/flocon-de-neige 1.png" alt="flocon">
+                       <span>promo hiver</span>
                     </a>
                 </li>
             </ul>   
         </nav>
-        <div class="corps">
-            <div class="icon"> 
-            
-                <img class="pan" src="image/Icon.png" alt="panier">
-                <img src="image/icon2.png" alt="profil">
-            </div>
-        </header>
-        <div class="center">
-            <div class="button">
-                <img src="image/Icon Button.png" alt="boutton">
-            </div>
-            <div class="shoose">
+        <div class="icon"> 
+            <img class="pan" src="image/Icon.png" alt="panier">
+            <img src="image/icon2.png" alt="profil">
+        </div>
+     </header>
+    <main>
+
+        <section class="shoes">
+            <img class="like" src="image/Icon Button.png" alt="boutton">
             <img src="image/Chaussure.jpg" alt="chaussures">
-        </div>
-            <p>Nike sneakers</p>
-            <p>127€</p>
-        </div>
-        
-        <form action="model">
-            <label>Taille</label>
-            <input zise="Pointure">
-            <label>Couleur</label>
-            <input color="Couleur">
-            <button type="submit">Ajouter au panier</button>
-            <fieldset>
-                <P>Caractéristique</P>
-                <img class="che" src="image/Chevron up.png" alt="chevron">
-                <p>Découvrez cette sneaker alliant confort et 
-            style, idéal pour les ammateurs de mode urbaine. 
-            Conçue avec une empeigne en cuir de haute qualité 
-            et des empiècements en maille respirante ...</p>
-            </fieldset>
-        </form>
-    </div>
+        </section>
+        <section class="center">
+            <h2>Nike sneakers</h2>
+            <span class="tag">Tag</span>
+            <p class="price"><sup>€</sup>127</p>
+            <p class="text">Lorem ipsum dolor sit amet.</p>
+
+            <form action="model">
+                <div class="input">
+                    <div>
+                        <label for="pointure">Taille</label>
+                        <select name="taille" id="taille"></select>
+                    </div>
+                    <div>
+                        <label for="couleur">Couleur</label>
+                        <select name="couleur" id="couleur"></select>
+                    </div>
+                </div>
+                <div class="input">
+                    <button type="submit">Ajouter au panier</button>
+                </div>
+            </form>
+            
+            <div class="caract">
+                <div class="caracttitle">
+                    <h3>Caractéristique</h3>
+                    <img class="chevron" src="image/Chevron up.png" alt="chevron">
+                </div>
+                <p>
+                    Découvrez cette sneaker alliant confort et 
+                    style, idéal pour les ammateurs de mode urbaine. 
+                    Conçue avec une empeigne en cuir de haute qualité 
+                    et des empiècements en maille respirante ...
+                </p>
+
+            </div>
+
+            
+        </section>
+    </main>
 </body>
 </html>

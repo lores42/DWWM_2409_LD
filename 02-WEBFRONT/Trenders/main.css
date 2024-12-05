@@ -1,4 +1,4 @@
-body{
+*{
     padding: 0;
     margin: 0;
 }
@@ -10,13 +10,69 @@ header{
     display: flex;
     gap: 1rem;
     list-style: none;
+    justify-content: space-evenly;
     align-items: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    height: 80px;
     img{
         width: 30px;
     }
+    
+    h1 {
+        
+    }
+
+    nav{
+        
+        
+        ul{
+            
+            align-items: center;
+            display:flex;
+            gap:3em;
+
+            li{
+
+                list-style: none;
+            }
+            .promo{
+                display: flex;
+                align-items: center;
+                img{
+                    height: 25px;
+                    width: 25px;
+                }
+            }
+
+        }
+
+
+        
+    }
+
     a:hover{
         color: rgb(165, 216, 216);
+    }
+}
+main{
+    display: flex;
+}
+section{
+    width: 50%;
+}
+.shoes{
+    display: flex;
+    .like{
+        height: 30px;
+    }
+}
+.center{
+    h2{
+        margin-bottom: 20px;
+    }
+    .tag{
+        background: #98ecbe;
+        margin-bottom: 20px;
     }
 }
 .icon{
@@ -24,10 +80,8 @@ header{
         width: 30 px;
     }
 }
-.che{ display: flex;
-    
-    width: 30px;
-    
+.chevron{     
+    width: 5px;    
 }
 form{
     width: 455px;
@@ -42,9 +96,11 @@ button{
 input{
     border-radius: 5px;
 }
-.fieldset{
-    width: 25px;
-    display: flex;   
+.caract{
+   .caracttitle{
+    display: flex;
+    justify-content: space-between;
+   } 
 }
 .hiver{
     display: flex;
