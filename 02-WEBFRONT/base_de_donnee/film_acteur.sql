@@ -16,7 +16,7 @@ USE videos;
 
 TRUNCATE TABLE film_acteur; -- vider la table film_acteur et réinitialise l'auto incrément
 TRUNCATE TABLE acteur; -- vider la table acteur et réinitialise l'auto_incrément
-TRUNCATE TABLE realistaeur -- vider la table realisateur
+TRUNCATE TABLE realistaeur; -- vider la table realisateur
 
 
 /* Insertion des données dans la table "realisateur" */

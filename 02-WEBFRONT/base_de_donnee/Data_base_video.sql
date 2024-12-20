@@ -29,8 +29,7 @@ USE videos;
 -- les requêtes qui suivent utiliseront 
 -- la base de donnée séléctionné ci-dessus
 
-/*
-CREE UNE TABLE NNOMMEE "realisateur"*/
+/*CREE UNE TABLE NNOMMEE "realisateur"*/
 CREATE TABLE realisateur
 (
 	realisateur_id INT PRIMARY KEY AUTO_INCREMENT,
