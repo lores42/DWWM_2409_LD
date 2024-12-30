@@ -1,12 +1,13 @@
 header{
-    background-color: #858d18;
+    background-color: #e64b3c;
     justify-self: center;    
 }
-.matou {
+.matou{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    
+    justify-content: space-between;
     background-color: #ffffff;
 }
 
@@ -18,9 +19,10 @@ h2{
 p{
    font-style: Arial;
 }  
+body{
+    background-color: #ebf0F0;
+}
 
 
-h2{
-    color: green;
-}  
+
 
