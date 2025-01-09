@@ -1,4 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
 *{
+    font-family: 'Roboto';
     padding: 0;
     margin: 0;
 }
@@ -6,7 +11,19 @@ a{
     text-decoration: none;
     color: black;
 }
+
 header{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    height: 100px ;
+    
+    h1{
+        text-transform: uppercase;
+    }
+}
+
+ul{
     display: flex;
     gap: 1rem;
     list-style: none;
@@ -54,28 +71,92 @@ header{
         color: rgb(165, 216, 216);
     }
 }
+.icon{
+
 main{
     display: flex;
 }
+
 section{
+    padding: 20px;
     width: 50%;
 }
 .shoes{
-    display: flex;
-    .like{
-        height: 30px;
+    
+    img{
+        width: 100%;
     }
+    .button{
+        width: 30px;
+    }
+
 }
 .center{
+    /*display: flex;
+    flex-direction: column;*/
+    
     h2{
-        margin-bottom: 20px;
+        font-size: 20px;
+        margin-bottom: 15px;
     }
     .tag{
-        background: #98ecbe;
+        display: inline-block;
+        border-radius: 6px;
+        padding: 3px 4px;
+        color: rgba(0, 0, 0, 0.265);
+        background: rgb(148, 243, 191);
+    }
+    .price{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        sup{
+            font-size: 22px;
+        }
+    }
+    .text{
+        color: rgba(22, 22, 22, 0.542);
         margin-bottom: 20px;
     }
+    form{
+    
+        width: 100%;
+        
+    }
+    .input{
+        width: 100%;
+        display: flex;
+        
+        gap: 10px;
+        select{
+            width: 100%;
+            display: ;
+            
+         }
+    }
+    .caract{
+        
+        padding: 20px;
+        border: 1px black solid;
+        border-radius: 5px;
+        .caracttitle{
+            display: flex;
+            justify-content: space-between;
+        }
+        h3{
+            font-size: 16px;
+        }
+        p{
+            margin-top: 20px;
+        }
+        img{
+            height: 20px;
+        }
+    }
 }
-.icon{
+
+.d{
+
     img{
         width: 30 px;
     }
@@ -109,7 +190,7 @@ input{
 #hamburger, .label-hamburger{
     display: none;
 }
-@media(max-width : 1200px){
+@media(max-width : 800px){
     .label-hamburger{
         display: inline;
     }
@@ -136,4 +217,10 @@ input{
     #hamburger:checked ~ ul{
         top: 80px;
     }
+
+
+    main{
+        display: block;
+    }
+
 }
