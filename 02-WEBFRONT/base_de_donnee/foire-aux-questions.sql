@@ -36,9 +36,9 @@ user_id int
 
 /*crée la table categories_questions */
 CREATE TABLE categories_questions
-(
-category_name VARCHAR(100) NOT NULL,
-question_id INT 
+(question_id INT ,
+category_name VARCHAR(100) NOT NULL
+
 );
 
 /* Modifier la table publication et y ajouter la clé étrangère */
