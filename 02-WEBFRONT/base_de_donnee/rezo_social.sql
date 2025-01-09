@@ -19,8 +19,8 @@ CREATE TABLE utilisateur
 CREATE TABLE publication
 (
 	pub_id INT PRIMARY KEY AUTO_INCREMENT,
-    pub_date DATETIME,
-    pub_titre VARCHAR(255) NOT NULL,
+    pub_date DATETIME NOT NULL,
+    pub_titre VARCHAR(255),
     pub_contenu TEXT,
     id INT,
     FOREIGN KEY(id) REFERENCES utilisateur(id)
@@ -35,3 +35,7 @@ CREATE TABLE aimer
 	FOREIGN KEY(id) REFERENCES utilisateur(id),
 	FOREIGN KEY(pub_id) REFERENCES publication(pub_id)
 );
+/* Modifier la table publication et y ajouetr une clé étrangère */
+ALTER TABLE publication  ADD FOREIGN KEY (id) REFERENCES utilisateur(id);
+
+ALTER TABLE aimer ADD CONSTRAINT fk_aimer_utilisateur FOREIGN KEY (id) REFERENCES utilisateur (id);

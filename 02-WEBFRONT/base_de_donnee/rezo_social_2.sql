@@ -21,3 +21,18 @@ VALUES
 ('2024-11-27 08:17', "Super resto", "J'ai découvert un super restaurant hier soir.",1),
 ('2024-12-05 17:52', "Album disponible", "Nouvel album de mon groupe préféré !", 2),
 ('2024-12-15 10:05', "Aidez-moi", "Je cherche une recette de gâteau au chocolat.", 3);
+
+INSERT INTO aimer
+(id, pub,_id)
+VALUES
+(1,5),
+(2,4),
+(3,3),
+(2,2),
+(1,1);
+
+/*selectionher toutes les données rt les lignes de la table 
+SELECT*FORM utilisateur
+SELECT*FORM publication
+SELECT*FORM aimer
+*/

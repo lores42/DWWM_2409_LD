@@ -29,7 +29,7 @@ USE videos;
 -- les requêtes qui suivent utiliseront 
 -- la base de donnée séléctionné ci-dessus
 
-/*CREE UNE TABLE NNOMMEE "realisateur"*/
+/*CREE UNE TABLE NOMMÉE "realisateur"*/
 CREATE TABLE realisateur
 (
 	realisateur_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -72,6 +72,7 @@ CREATE TABLE film_acteur
 
 /* INSERER LE JEUX D'EASSSAI DANS LA TABLE FILMS*/
 INSERT INTO film
+(film_titre, film_duree)
 VALUES
 (NULL, "Léon", 120),
 (NULL, "E.T", 90),
