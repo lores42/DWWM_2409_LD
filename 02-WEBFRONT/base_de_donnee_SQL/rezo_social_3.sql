@@ -1,3 +1,5 @@
+-- utilisé la base de donnée rezo_social
+USE rezo_social;
 -- Sélectionner nom utilisateur et l'email.
 SELECT nom_utilisateur, email
 FROM utilisateur;

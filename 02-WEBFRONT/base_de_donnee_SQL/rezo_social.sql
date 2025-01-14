@@ -38,4 +38,5 @@ CREATE TABLE aimer
 /* Modifier la table publication et y ajouetr une clé étrangère */
 ALTER TABLE publication  ADD FOREIGN KEY (id) REFERENCES utilisateur(id);
 
+/*Modifier la table aimer et y ajouter une contraite à fk_aimer ajputer une clé étrangère rférence utilisateur */
 ALTER TABLE aimer ADD CONSTRAINT fk_aimer_utilisateur FOREIGN KEY (id) REFERENCES utilisateur (id);
