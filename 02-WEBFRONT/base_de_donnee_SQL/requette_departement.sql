@@ -144,3 +144,5 @@ WHERE comm;
 SELECT ename, deptno, job, hiredate
 FROM employes
 ORDER BY hiredate DESC, deptno , job ;
+
+-- 5. Afficher la liste des employés travaillant à DALLAS

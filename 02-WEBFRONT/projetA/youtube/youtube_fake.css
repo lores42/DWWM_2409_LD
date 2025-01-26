@@ -155,10 +155,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    
 }
 
 .youtube-logo {
-    height: 30px;
+    height: 20px;
   }
 
 .search-bar {
@@ -171,10 +172,11 @@ body {
 .search-input {
     width: 100%;
     font-size: inherit;
-    padding: 4em;
+    padding: .4em;
     border: 1px solid #777;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    
    
 }
 
@@ -192,13 +194,21 @@ body {
 
 .search-btn:hover{
     background-color: #F0F0F0;
+
 }
 
 .menu-icons{
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     align-items: center;
     gap: 1.5rem;
+}
+
+.voice-logo{
+    background-color: #606060;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
 }
 
 .menu-channel-icon{
@@ -207,3 +217,5 @@ body {
     height: 36px;
     background-color: #aaa;
 }
+
+
