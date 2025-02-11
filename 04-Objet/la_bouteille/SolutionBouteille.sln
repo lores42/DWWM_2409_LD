@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppBouteille", "..\..\..\..\..\source\repos\SolutionBouteille\ConsoleAppBouteille\ConsoleAppBouteille.csproj", "{3B550638-BFBF-49DE-9360-DA2486C73C08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryBouteille", "..\..\..\..\..\source\repos\SolutionBouteille\ClassLibraryBouteille\ClassLibraryBouteille.csproj", "{985DF672-819B-44F0-A932-9167B625E38F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bouteille2", "..\..\..\..\..\source\repos\SolutionBouteille\Bouteille2\Bouteille2.csproj", "{95238651-1E8A-4EBF-9968-32B6E10A7332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{152CBED4-7AC1-4EF0-99FE-756019B3C8B8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\source\repos\SolutionBouteille\.editorconfig = ..\..\..\..\..\source\repos\SolutionBouteille\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ancienneBouteille", "ancienneBouteille", "{B28C4760-5D71-4F97-865D-035B837811D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1botle", "ClassLibrary1botle\ClassLibrary1botle.csproj", "{DFFD8D2C-6E18-494D-A529-37A6579EE700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B550638-BFBF-49DE-9360-DA2486C73C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B550638-BFBF-49DE-9360-DA2486C73C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B550638-BFBF-49DE-9360-DA2486C73C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B550638-BFBF-49DE-9360-DA2486C73C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985DF672-819B-44F0-A932-9167B625E38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985DF672-819B-44F0-A932-9167B625E38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985DF672-819B-44F0-A932-9167B625E38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985DF672-819B-44F0-A932-9167B625E38F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95238651-1E8A-4EBF-9968-32B6E10A7332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95238651-1E8A-4EBF-9968-32B6E10A7332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95238651-1E8A-4EBF-9968-32B6E10A7332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95238651-1E8A-4EBF-9968-32B6E10A7332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFD8D2C-6E18-494D-A529-37A6579EE700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFD8D2C-6E18-494D-A529-37A6579EE700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFD8D2C-6E18-494D-A529-37A6579EE700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFD8D2C-6E18-494D-A529-37A6579EE700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B550638-BFBF-49DE-9360-DA2486C73C08} = {B28C4760-5D71-4F97-865D-035B837811D5}
+		{985DF672-819B-44F0-A932-9167B625E38F} = {B28C4760-5D71-4F97-865D-035B837811D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98772880-B46E-48CC-B1AC-F09813B05A7D}
+	EndGlobalSection
+EndGlobal
