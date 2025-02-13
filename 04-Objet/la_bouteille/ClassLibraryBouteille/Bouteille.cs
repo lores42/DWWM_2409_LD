@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.Design;
 
-namespace ClassLibrary1botle
+namespace ClassLibraryBouteille
 {
-    public class Botle
+    public class Bouteille
     {
         // attributs
         private float capaciteEnLitre;
@@ -17,7 +14,7 @@ namespace ClassLibrary1botle
         // constructeurs 
 
         // constructeur par defaut 
-        public Botle()
+        public Bouteille()
         {
             this.capaciteEnLitre = 1.5f;
             this.contenuEnLitre = 1f;
@@ -26,7 +23,7 @@ namespace ClassLibrary1botle
         }
 
         // constructeur classique
-        public Botle(float capaciteEnLitre, float contenuEnLitre, bool estOuverte, string typeDeContenu)
+        public Bouteille(float capaciteEnLitre, float contenuEnLitre, bool estOuverte, string typeDeContenu)
         {
             this.capaciteEnLitre = capaciteEnLitre;
             this.contenuEnLitre = contenuEnLitre;
@@ -36,12 +33,12 @@ namespace ClassLibrary1botle
 
         // constructeur hybride classique defaut 
 
-        public Botle(float capaciteEnLitre, float contenuEnLitre, string typeDeContenu) : this(capaciteEnLitre, contenuEnLitre, true, typeDeContenu)
+        public Bouteille(float capaciteEnLitre, float contenuEnLitre, string typeDeContenu) : this(capaciteEnLitre, contenuEnLitre, true, typeDeContenu)
         {
         }
 
         // contructeur par clone
-        public Botle(Botle bouteilleACopier)
+        public Bouteille(Bouteille bouteilleACopier)
         {
             this.capaciteEnLitre = bouteilleACopier.capaciteEnLitre;
             this.contenuEnLitre = bouteilleACopier.contenuEnLitre;
@@ -49,14 +46,34 @@ namespace ClassLibrary1botle
             this.typeDeContenu = bouteilleACopier.typeDeContenu;
         }
 
-       public bool EstOuverte()
+        public bool ouvrir()
         {
             if (!estOuverte)
             {
-                estOuverte = true;               
+                estOuverte = true;
+                return true;
             }
-            return estOuverte;
+            return false;
         }
-      
+
+        public bool fermer()
+        {
+            if (estOuverte)
+            {
+                estOuverte = false;
+                return true;
+            }
+            return false;
+        }
+         public bool remplire()
+        {
+            if ((estOuverte == true) && (capaciteEnLitre > contenuEnLitre))
+            {
+                return true;
+            }
+            else if
+
+            
+        }
     }
 }
