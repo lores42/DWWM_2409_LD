@@ -1,0 +1,58 @@
+:root {
+    --background: #536B78;
+    --title_info-tab_btn-add: #ACCBE1;
+    --background-tab_input: #637082;
+    --label_list: #7F95A2;
+    --border-input_tab: #7D98B3;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--background);
+}
+
+main {
+    border: 1px solid var(--title_info-tab_btn-add);
+    padding: 0 1rem 1rem;
+}
+
+h1, #btn-add, table {
+    color: var(--title_info-tab_btn-add);
+}
+
+h4, label, ul {
+    color: var(--label_list);
+}
+
+#add-person {
+    border: 1px dashed var(--title_info-tab_btn-add);
+    padding: 0 1rem 1rem;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: .3rem .5rem;
+    background: var(--background-tab_input);
+    border: 2px solid var(--border-input_tab);
+}
+
+table, tr, th, td {
+    border: 2px solid var(--border-input_tab);
+    border-collapse: collapse;
+    padding: .3rem .5rem;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--label_list);
+    font-weight: bold;
+}
