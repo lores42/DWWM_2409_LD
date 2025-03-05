@@ -45,6 +45,7 @@ function createTitleCell(text, row) {
 createTitleCell("nom", myTitleRow);
 createTitleCell("prenom", myTitleRow);
 createTitleCell("email", myTitleRow);
+createTitleCell("Suprimer", myTitleRow);
 
 function createCell(text, row) {
   let myTableIn = document.createElement("td");
@@ -65,10 +66,13 @@ people.forEach((Element) => {
   let prenom = Element.split(" ")[0];
   let nom = Element.split(" ")[1];
   let email = `${prenom.toLowerCase()}.${nom.toLowerCase()}@exemple.com`;
+  let Suprimer = "X";
+
   const myRow = myTBody.insertRow();
 
   //myTBody.insertRow();
   createCell(nom, myRow);
   createCell(prenom, myRow);
   createCell(email, myRow);
+  createCell(Suprimer, myRow);
 });
