@@ -14,6 +14,9 @@ const affichage = () => {
     tbody.innerText = ""
     ul.innerText = ""
     if(people.length>0){
+message.innerText = ""
+table.style.display= ""
+
         people.forEach((p, index) => {
             
             const li = document.createElement("li")
@@ -52,23 +55,53 @@ const affichage = () => {
         })
     }
     else{
-        table.innerText = ""
+        table.style.display = "none"
         message.innerText = "La liste est vide !"
     }
 }
 
-form.addEventListener("submit", (event) => {
-    event.preventDefault()
-
-    const reg = /[a-zA-Z-]{2,}/
-    if(reg.test(inputFirstname.value.trim()) && reg.test(inputLastname.value.trim())){
-        const firstname = String(inputFirstname.value.trim()).charAt(0).toUpperCase() + " " + String(inputFirstname.value.trim())
-        const lastname = String(inputLastname.value.trim()).charAt(0).toUpperCase() + " " + String(inputLastname.value.trim())
-        people.push(firstname + ' ' + lastname)
-        affichage()
-    }
-})
 
 affichage()
 
+
+
+
+btnAdd.addEventListener("click", () => {
+  const reg = /[a-zA-Z-]{2,}/;
+  if (
+    reg.test(inputFirstname.value.trim()) &&
+    reg.test(inputLastname.value.trim())
+  ) {
+    const firstname =
+      inputFirstname.value.trim().charAt(0).toUpperCase() +
+      inputFirstname.value.slice(1).trim();
+    const lastname =
+      inputLastname.value.trim().charAt(0).toUpperCase() +
+      inputLastname.value.slice(1).trim();
+    let chainepeople = firstname + " " + lastname;
+    testsynonime = false;
+
+    for (let i = 0; i < people.length; i++) {
+      if (chainepeople == people[i]) {
+        testsynonime = true;
+        break;
+      }
+    }
+
+    if (testsynonime === false) {
+
+        console.log(chainepeople);
+        
+      people.push(chainepeople);
+       affichage();
+     
+    } else {
+      message.innerText = "La personne existe deja !!";
+    }
+   
+    inputLastname.value = "";
+    inputFirstname.value = "";
+    inputFirstname.focus();
+  }
+});
 
