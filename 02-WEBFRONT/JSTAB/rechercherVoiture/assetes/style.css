@@ -1,0 +1,22 @@
+.recherche,  #rechercher, #nomVoiture{
+    background-color: #E0FFFF;
+    display: block;
+    margin: .5rem;
+}
+
+
+h1, h3, .chercher, #rechercher{
+    color: #000081;
+}
+.chercher{
+    align-items: center;
+    justify-content: center;
+}
+
+#rechercher{
+    background-color: #E0FFFF;
+}
+
+.recherche{
+    
+}
