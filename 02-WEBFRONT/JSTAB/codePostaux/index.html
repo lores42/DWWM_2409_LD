@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des listes déroulante</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="/assets/script.js" defer></script>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Recherche d'une commune par son code postal ou par son nom
+        </legend>
+        
+        <select name="commune" id="commune">
+            <option value="">
+                Choisissez votre commune ! 
+            </option>
+            <input type="button" id="btncp" value="Afficher code postale ">
+            <input type="text" class="valeur"><datalist id="valeur"></datalist>
+                
+        </select>
+    </fieldset>
+    <p id="info">
+        
+    </p>
+</body>
+</html>

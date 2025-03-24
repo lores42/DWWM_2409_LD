@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulation des dates</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <script src="/assets/script.js" defer></script>
+  </head>
+  <body>
+    <div id="dateDeNaissance">
+      <h1>Ma date de naissance</h1>
+      <div class="date">
+        <label for="naissance">Dates de naissance :</label>
+        <input type="date" id="naissance" />
+        <input type="button" value="Calculer" id="calculer">
+        <p>Séléctionnez une date dans le passé.</p>
+        <hr>
+        <div class="resultat">
+          <p class="resultat">Vous êtes née le : </p> 
+          <p class="age" id="age">Il s'est écoulé <span id="age"></span> année depuis votre naissance.</p>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </body>
+</html>

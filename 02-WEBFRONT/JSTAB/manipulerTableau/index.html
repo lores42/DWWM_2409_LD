@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/script.js" defer></script>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Manipuler un tableau</title>
+</head>
+<body>
+    <main> 
+        <h1>Liste des personnes inscrites</h1>
+        <div id="add-person">
+            <h4>Ajouter une personne</h4>
+            <form>
+                <div>
+                    <label for="input-firstname">Prénom</label>
+                    <input type="text" id="input-firstname">
+                </div>
+                <div>
+                    <label for="input-lastname">Nom</label>
+                    <input type="text" id="input-lastname">
+                </div>
+                <div>
+                    <input type="button" id="btn-add" value="Ajouter">
+                </div>
+            </form>
+            <div>
+                <p id="form-message"></p>
+            </div>
+        </div>
+        <div>
+            <p id="message"></p>
+            <ul></ul>
+        </div>       
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Email</th>
+                    <th>Supprimer</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>    
+</body>
+</html>

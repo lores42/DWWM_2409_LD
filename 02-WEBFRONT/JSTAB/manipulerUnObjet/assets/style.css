@@ -1,0 +1,15 @@
+#dateDeNaissance{
+    display: block;
+    border: solid 1px blue;
+    margin: 2px;
+    padding: 5px;
+}
+
+#naissance{
+    border-color: blue;
+}
+
+button{
+    border-color: blue;
+    color: blue;
+}
