@@ -1,0 +1,22 @@
+body{
+
+
+}
+
+.plateau {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: calc(80vh/6*7) ;
+    height: 80vh;  
+    gap : 1rem
+}
+
+.case {
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+div{
+    margin-left: 0px;
+}
+

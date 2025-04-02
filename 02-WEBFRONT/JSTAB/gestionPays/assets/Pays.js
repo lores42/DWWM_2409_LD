@@ -15,7 +15,7 @@ export class Pays {
             }
         }
 
-        this.country_code = codePays
-        this.country_name = nomPays
+        this.country_code = codePays.toUpperCase()
+        this.country_name = nomPays.charAt(0).toUpperCase()+nomPays.slice(1).toLowerCase()
     }
 }

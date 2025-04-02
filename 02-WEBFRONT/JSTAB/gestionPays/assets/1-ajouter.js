@@ -6,6 +6,10 @@ const btn = document.querySelector("#validate");
 const titre = document.querySelector("#titre");
 const result = document.querySelector("#result");
 
+const errorCodePays = document.querySelector("#error-code-pays");
+const errorNomPays = document.querySelector("#error-nom-pays");
+
+
 let nouveauPays = {};
 
 titre.textContent = "Ajouter un pays";
@@ -13,6 +17,8 @@ titre.textContent = "Ajouter un pays";
 btn.addEventListener("click", (event) => {
     event.preventDefault();
     result.textContent = "";
+    errorCodePays.textContent = "";
+    errorNomPays.textContent = "";
 
     try {
         nouveauPays = new Pays(inputCodePays.value, inputNomPays.value)
@@ -34,16 +40,16 @@ btn.addEventListener("click", (event) => {
             const p = document.createElement("p");
             p.textContent =
                 "Le code pays doit contenir exactement deux lettres non accentuées !";
-            result.append(p);
+            errorCodePays.append(p);
         }
 
         if (/^[a-zA-Z]{4,}$/.test(inputNomPays.value)) {
-            nouveauPays.country_ = inputNomPays.value[0].toUpperCase()+inputNomPays.value.slice(1).toLowerCase();
+            nouveauPays.country_ = inputNomPays.value.charAt(0).toUpperCase()+inputNomPays.value.slice(1).toLowerCase();
         } else {
             const p = document.createElement("p");
             p.textContent =
                 "Le nom du pays doit contenir au minimum quatre lettres non accentuées !";
-            result.append(p);
+            errorNomPays.append(p);
         }
         console.log(nouveauPays);
     } else {
