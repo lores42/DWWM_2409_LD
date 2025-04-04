@@ -126,53 +126,64 @@ function indiquerSigneAstro(date) {
     const mois = date.getMonth() + 1;
     const jour = date.getDate();
     
-    
     if ((mois === 1 && jour >= 20) || (mois === 2 && jour <= 18)) {
-        signeAstro.innerHTML = "Vous êtes Verseau" + imageAstro;
+        signeAstro.innerHTML = "Vous êtes Verseau";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Verseau.png'>"
     }
     
     else if ((mois === 2 && jour >= 19) || (mois === 3 && jour <= 20)) {
         signeAstro.innerHTML = "Vous êtes Poissons";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Poissons.png'>"
     }
     
     else if ((mois === 3 && jour >= 21) || (mois === 4 && jour <= 19)) {
         signeAstro.innerHTML = "Vous êtes Bélier";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Belier.png'>"
     }
     
     else if ((mois === 4 && jour >= 20) || (mois === 5 && jour <= 20)) {
         signeAstro.innerHTML = "Vous êtes Taureau";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Taureau.png'>"
     }
     
     else if ((mois === 5 && jour >= 21) || (mois === 6 && jour <= 20)) {
         signeAstro.innerHTML = "Vous êtes Gémaeaux";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Gémaeaux.png'>"
     }
     
     else if ((mois === 6 && jour >= 21) || (mois === 7 && jour <= 22)) {
         signeAstro.innerHTML = "Vous êtes Cancer";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Cancer.png'>"
     }
     
     else if ((mois === 7 && jour >= 23) || (mois === 8 && jour <= 22)) {
         signeAstro.innerHTML = "Vous êtes Lion";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Lion.png'>"
     }
     
     else if ((mois === 8 && jour >= 23) || (mois === 9 && jour <= 22)) {
         signeAstro.innerHTML = "Vous êtes Vierge";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Vierge.png'>"
     }
     
     else if ((mois === 9 && jour >= 23) || (mois === 10 && jour <= 22)) {
         signeAstro.innerHTML = "Vous êtes Balance";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Balance.png'>"
     }
     
     else if ((mois === 10 && jour >= 23) || (mois === 11 && jour <= 21)) {
         signeAstro.innerHTML = "Vous êtes Scorpion";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Scorpion.png'>"
     }
     
     else if ((mois === 11 && jour >= 22) || (mois === 12 && jour <= 21)) {
-        signeAstro.innerHTML = "Vous êtes Sagittaire";
+        signeAstro.innerHTML = "Vous êtes Sagitaire";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Sagitaire.png'>"
     }
     
     else if ((mois === 12 && jour >= 22) || (mois === 1 && jour <= 19)) {
         signeAstro.innerHTML = "Vous êtes Capricorne";
+        imageAstro.innerHTML = "<img src='signeDuZodiaque/Capricorne.png'>"
     }
         
     else {
