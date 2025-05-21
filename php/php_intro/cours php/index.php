@@ -13,7 +13,7 @@ $objPret = new Pret(10000, 5.3, 5);
 echo $objPret->calculMensualite2();
 $tableauAmrt = $objPret->getTableauAmortissement();
 var_export($tableauAmrt);
-
+$objPret->calculMensualite()
 
 ?>
 
